@@ -20,6 +20,9 @@ dev = [
     "ruff>=0.3",
     "mypy>=1.8",
 ]
+ai = [
+    "anthropic>=0.40",
+]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
